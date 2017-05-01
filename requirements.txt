@@ -3,3 +3,4 @@ boto
 extruct
 w3lib
 scrapinghub
+jinja2
