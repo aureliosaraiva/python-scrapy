@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from price_monitor import settings
-from hubstorage import HubstorageClient
+from scrapinghub import HubstorageClient
 from price_monitor.utils import reversed_timestamp, get_product_names
 
 

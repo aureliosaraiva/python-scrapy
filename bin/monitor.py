@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timedelta
 
 import boto
-from hubstorage import HubstorageClient
+from scrapinghub import HubstorageClient
 from jinja2 import Environment, PackageLoader
 from price_monitor import settings
 from price_monitor.utils import get_product_names, get_retailers_for_product
