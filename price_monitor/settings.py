@@ -10,7 +10,7 @@ ROBOTSTXT_OBEY = True
 SHUB_KEY = os.getenv('$SHUB_KEY')
 # if you want to run it locally, replace '999999' by your Scrapy Cloud project ID below
 SHUB_PROJ_ID = os.getenv('SHUB_JOBKEY', '999999').split('/')[0]
-
+print SHUB_KEY
 
 # settings for Amazon SES email service
 AWS_ACCESS_KEY = os.getenv('$AWS_ACCESS_KEY')
