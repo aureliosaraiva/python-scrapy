@@ -16,7 +16,7 @@ SHUB_PROJ_ID = os.getenv('SHUB_JOBKEY', '999999').split('/')[0]
 AWS_ACCESS_KEY = os.getenv('$AWS_ACCESS_KEY')
 AWS_SECRET_KEY = os.getenv('$AWS_SECRET_KEY')
 EMAIL_ALERT_FROM = 'Price Monitor <SENDER_EMAIL@provider.com>'
-EMAIL_ALERT_TO = ['RECEIVER_EMAIL@provider.com']
+EMAIL_ALERT_TO = ['aureliosaraiva@gmail.com']
 
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
